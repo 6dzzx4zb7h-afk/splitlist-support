@@ -1,0 +1,60 @@
+name: Bug report
+description: Something in Splitlist does not work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **This tracker is public.** Please do not include your password, and avoid
+        screenshots showing other people's names, email addresses or list contents.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Opened the shared list "Groceries"
+        2. Tapped the round target on "Milk"
+        3. Expected it to check off; instead it stayed empty and the row kept shimmering
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Most of the time
+        - Only once so far
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: iPhone 14, iOS 18.2
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Splitlist version
+      description: Shown at the bottom of the Settings tab.
+      placeholder: "1.2.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots or a screen recording help, if they show no private data.
+    validations:
+      required: false

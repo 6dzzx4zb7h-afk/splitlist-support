@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Feature request
+    url: https://github.com/6dzzx4zb7h-afk/splitlist-support/issues/new?labels=enhancement
+    about: Suggest something Splitlist should be able to do.
+  - name: Privacy policy
+    url: https://6dzzx4zb7h-afk.github.io/splitlist-support/privacy.html
+    about: What Splitlist stores, who can see it, and how to have it deleted.
