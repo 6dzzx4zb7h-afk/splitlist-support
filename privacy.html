@@ -131,9 +131,9 @@
 <h3>Splitlist does not read your contacts</h3>
 
 <p>
-  Splitlist <strong>never asks for and never accesses your phone's address
-  book</strong>. It is not able to: the permission is not requested, and on
-  Android the contacts permissions are explicitly blocked from the app.
+  Splitlist <strong>does not request access to, and does not read, your phone's
+  address book</strong>. The app contains no contacts functionality and never
+  asks for the permission that would be required to use one.
 </p>
 
 <p>
@@ -237,9 +237,18 @@
 
 <ul>
   <li>
-    <strong>Backups:</strong> Splitlist runs on a hosting plan that includes no
-    automated database backups. Once data is deleted from the live database it is
-    not retained in a backup copy, and it cannot be restored for you.
+    <strong>Backups:</strong> Splitlist's hosting plan does not include the
+    automated database backup feature, and we keep no backup copies of our own.
+    So if you delete something, we have nothing to restore it from and cannot
+    recover it for you.
+  </li>
+  <li>
+    <strong>Service logs:</strong> our providers keep their own operational
+    records — the fact that a request was made, that a notification was
+    attempted — under their own retention schedules, set out in the Supabase and
+    Expo privacy policies linked above. These exist to keep the service running
+    and are not under our control, so this policy cannot speak for how long they
+    last.
   </li>
   <li>
     <strong>On your device:</strong> the app keeps a copy of recently viewed data
@@ -279,9 +288,10 @@
 </ul>
 
 <p>
-  Deletion is immediate and permanent. As stated above, there is no backup from
-  which it can be undone. If you cannot reach the in-app option, you can request
-  deletion through the <a href="https://github.com/6dzzx4zb7h-afk/splitlist-support/issues">support tracker</a>.
+  Deletion takes effect immediately, and we cannot undo it for you — as above, we
+  hold no backup to restore from. If you cannot reach the in-app option, you can
+  request deletion through the
+  <a href="https://github.com/6dzzx4zb7h-afk/splitlist-support/issues">support tracker</a>.
 </p>
 
 <h2>Your rights</h2>
@@ -294,7 +304,7 @@
 
 <ul>
   <li><strong>Access</strong> — ask what we hold about you.</li>
-  <li><strong>Correction</strong> — your name, username and avatar are editable in the app at any time; ask us about anything else.</li>
+  <li><strong>Correction</strong> — your display name and avatar are editable in the app at any time. Usernames cannot currently be changed in the app; ask us about your username, or about anything else we hold.</li>
   <li><strong>Deletion</strong> — Settings &rarr; Delete account, or ask us.</li>
   <li><strong>Export</strong> — ask for a copy of your data in a portable format.</li>
   <li><strong>Objection and restriction</strong> — ask us to stop or limit a particular use.</li>
