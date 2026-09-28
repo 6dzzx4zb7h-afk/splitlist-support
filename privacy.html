@@ -19,7 +19,7 @@
   </div>
 </header>
 
-<p class="updated">Last updated 21 September 2026.</p>
+<p class="updated">Last updated 29 September 2026.</p>
 
 <p class="lede">
   Splitlist is a shared to-do list. Friends join a list, add tasks and check them
@@ -189,11 +189,19 @@
   your device's push token and the message.
 </p>
 <p>
-  <strong>Push messages deliberately carry only generic text</strong> such as
-  "You have a new task assignment" or "A shared task was completed." Task titles,
-  list names and member names are never sent to the push provider, so they do not
-  appear on a lock screen and do not pass through Expo, Apple or Google. The real
-  content stays in the database and is fetched by the app once you open it.
+  <strong>Push messages say what happened</strong>, so you can tell at a glance
+  whether it needs you: the list's name and icon, the title of the task, and the
+  display name of the member who added, assigned, completed or nudged it — for
+  example "🛒 Groceries: Ana added “Buy oat milk”". That text therefore passes
+  through Expo and Apple or Google on its way to your device, and can appear on
+  your lock screen. Notes, due dates, check history and everything else stay in
+  the database and are fetched by the app once you open it.
+</p>
+<p>
+  To keep list and task names off your lock screen, use your phone's own setting
+  to hide notification content while locked, or turn off the notification types
+  you do not want in Splitlist's Settings. Turning notifications off entirely
+  stops anything being sent through these providers.
 </p>
 <p>
   See the <a href="https://expo.dev/privacy" rel="noopener">Expo privacy policy</a>.
